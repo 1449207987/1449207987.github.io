@@ -1,0 +1,183 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+    background: url(../images/banner_bg.jpg)no-repeat;
+    background-size: 100%;
+}
+html{
+    background-color: white;
+}
+html,
+body{
+    height: 100%;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.app{
+    height: 45px;
+    background-color: #333;
+}
+.app ul li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+}
+.app ul li:nth-child(1){
+    width: 8%;;
+}
+.app ul li:nth-child(1) img{
+    width:10px;
+    height: 10px;
+}
+.app ul li:nth-child(2){
+    width: 10%;
+}
+.app ul li:nth-child(2) img{
+    width:30px;
+    height: 30px;
+    margin-top: 7px;
+}
+.app ul li:nth-child(3){
+    width: 57%;;
+}
+.app ul li:nth-child(4){
+    background: red;
+    width: 25%;;
+}
+.search_wrap{
+    height: 44px;
+    width: 100%;
+    position: relative;
+    min-width: 320px;
+    max-width: 640px;
+    overflow: hidden;
+}
+.one{
+    position: absolute;
+    left: 0;
+    width: 10%;
+    height: 44px;
+}
+.two{
+    position: absolute;
+    width: 87%;
+    left: 40px;
+    top: 0;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+.three{
+    position: absolute;
+    right: 0;
+    width: 6%;
+    height: 44px;
+}
+.three::after{
+    content: "登陆";
+    color: white;
+    line-height: 45px;
+    margin-left: 5px;
+}
+.jd-icon {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    background: url(../images/jd.png) no-repeat;
+    background-size: 20px 15pxe;
+}
+.sdg{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:url(../images/s-btn.png)no-repeat;
+    background-size: 20px 18px;
+    margin: 13px 0px 0px 8px;
+}
+.jd-icon::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 0;
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+}
+.magnifying{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 8px;
+    left: 50px;
+    background: url(../images/jd-sprites.png)no-repeat -81px 0;
+    background-size: 200px auto;
+}
+.xq{
+    opacity: .5;
+    width: 100%;
+    min-height: 271px;
+    max-width: 640px;
+    background: url(../images/banner_bg.jpg)no-repeat;
+    background-size: cover;
+}
+.tpslz{
+    float: left;
+    width: 100%;
+}
+.tpslz img{
+    width: 33.33333%;
+    margin-right: -4px;
+}
+.clear{
+    clear: both;
+}
+nav{
+    width: 100%;
+    height: 160px;
+    background-color: #ffffff;
+}
+nav a{
+    float: left;
+    width: 20%;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+nav a img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 12px auto 6px;
+}
+nav span{
+    color: black;
+}
+.vox img{
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+}
+.vox img:nth-child(1){
+    width: 50%;
+}
+.vox img:nth-child(n+2){
+    width: 25%;
+    border-left: 1px solid #cccccc;
+}
